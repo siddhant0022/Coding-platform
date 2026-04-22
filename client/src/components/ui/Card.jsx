@@ -1,5 +1,5 @@
 const Card = ({ children, className = "" }) => (
-  <div className={`rounded-lg border border-black-700 bg-black-800 p-4 shadow-sm ${className}`}>
+  <div className={`glass-gold rounded-2xl p-4 shadow-xl ${className}`}>
     {children}
   </div>
 );

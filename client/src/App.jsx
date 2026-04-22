@@ -9,7 +9,7 @@ import DashboardPage from "./pages/DashboardPage";
 
 const App = () => (
   <BrowserRouter>
-    <div className="min-h-screen bg-black-900 text-white">
+    <div className="min-h-screen text-white">
       <Navbar />
       <Routes>
         <Route path="/" element={<ProblemListPage />} />
