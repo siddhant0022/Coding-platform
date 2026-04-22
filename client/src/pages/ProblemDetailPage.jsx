@@ -221,7 +221,7 @@ const ProblemDetailPage = () => {
           <textarea
             value={code}
             onChange={(event) => setCode(event.target.value)}
-            className="h-[440px] w-full rounded-xl border border-gold/20 bg-black-950/90 p-4 font-mono text-sm text-zinc-100 outline-none transition focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,175,55,0.18)]"
+            className="h-[440px] w-full rounded-xl border border-gold/20 bg-[#0a0a0a] p-4 font-mono text-sm text-zinc-100 caret-gold outline-none transition placeholder:text-zinc-500 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,175,55,0.18)]"
           />
 
           {status && (
